@@ -14,10 +14,12 @@ request url params:
  age: int
 
 ##### response: 
+```
 [
     “Str”,
     “Str”
 ]
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -33,11 +35,13 @@ request form data:
  salary: int
 
 ###### response: 
+```
 {'name': name,
           'age': age,
           'salary': salary,
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -53,10 +57,12 @@ request url params:
  weight: int
 
 ##### response: 
+```
 {'name': name,
           'age': age,
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -72,6 +78,7 @@ request url params:
  salary: int
 
 ##### response: 
+```
 {'name': name,
           'age': age,
           'salary': salary,
@@ -82,6 +89,7 @@ request url params:
                                      'age': 4}},
                      'u_salary_1_5_year': salary * 4}
           }
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -98,10 +106,11 @@ request url params:
  salary: int
 
 ##### response: 
+```
 {'name': name,
           'age': int(age),
           'salary': [salary, str(salary * 2), str(salary * 3)]}
-
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
@@ -119,6 +128,7 @@ request form data:
  salary: int
 
 ##### response: 
+```
 {'start_qa_salary': salary,
           'qa_salary_after_6_months': salary * 2,
           'qa_salary_after_12_months': salary * 2.7,
@@ -128,7 +138,7 @@ request form data:
                      'u_age': age,
                      'u_salary_5_years': salary * 4.2}
           }
-
+```
 
 ##### Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
